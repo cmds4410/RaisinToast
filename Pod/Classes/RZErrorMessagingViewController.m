@@ -40,8 +40,6 @@ static CGFloat const kErrorMessagingViewVerticalPadding = 20.0f;
 
 @interface RZErrorMessagingViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView *errorContainer;
-
 @property (weak, nonatomic) NSLayoutConstraint *bottomAnimationConstraint;
 @property (weak, nonatomic) NSLayoutConstraint *heightConstraint;
 @property (weak, nonatomic) NSError *displayedError;

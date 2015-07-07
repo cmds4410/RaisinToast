@@ -36,6 +36,8 @@ OBJC_EXPORT NSString * const kRZLevelPositive;
 
 @interface RZErrorMessagingViewController : UIViewController <RZMessagingViewController>
 
+@property (weak, nonatomic) IBOutlet UIView *errorContainer;
+
 /**
  *  Title label appears at the top of the alert
  */
